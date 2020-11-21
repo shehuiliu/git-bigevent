@@ -35,6 +35,7 @@ $(function () {
             if (res.status !== 0) return layer.msg(res.message);
             layer.msg('注册成功请登录')
             $("#log-link").click()
+            $(this).setItem()
         })
 
     })
