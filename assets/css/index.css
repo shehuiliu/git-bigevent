@@ -1,0 +1,47 @@
+
+.layui-icon {
+    margin-left: 30px;
+    margin-right: 5px;
+}
+.ifm {
+    width:100%;
+    height: 1000px;
+}
+.layui-nav-img{
+    width: 40px;
+    height: 40px;
+    margin-left:30px;
+}
+a {
+    transform:none!important;
+}
+
+.user-l{
+    display: inline-block;
+    height: 60px;
+    line-height:60px;
+    text-align:center;
+}
+   .text-avatar {
+     display: inline-block;
+     width: 40px;
+     height: 40px;
+     background-color: #009688;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+     font-size: 20px;
+     color: #fff ;
+     position: relative;
+     top: 4px;
+     /* left: 30px; */
+      margin-right: 10px;
+    }
+    #welcome{
+        color: #fff;
+    }
+    .layui-side-scroll .user-l{
+        border-bottom: 1px solid #282b33;
+      }
+    
+      
