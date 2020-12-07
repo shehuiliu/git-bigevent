@@ -40,13 +40,14 @@ $(function () {
     // 封装获取用户信息的函数
     function ininUserIfor() {
         // console.log(123);
+
         $.ajax({
             method: 'get',
             url: '/my/userinfo',
             success: function (res) {
+                console.log(res);
                 if (res.status != 0) return layer.msg("获取用户信息失败")
                 form.val("formUserInfo", res.data)
-                // console.log(res.data);
             }
         })
 
